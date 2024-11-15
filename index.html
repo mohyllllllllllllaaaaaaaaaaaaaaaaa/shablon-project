@@ -2,8 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, intial scale=1.0" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
     <title>First Homework</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header></header>
@@ -15,17 +29,239 @@
         <div class="catalog">
           <ul class="catalog-list">
             <li>
-              <picture>
-                <source srcset="./imades.watch.jpg/image1@1x.jpg" />
-              </picture>
+              <div class="catalog-imgns">
+                <picture>
+                  <source
+                    srcset="
+                      ./imades.watch.jpg/image1mob@1x.jpg,
+                      ./imades.watch.jpg/image1mob@2x.jpg
+                    "
+                    media="(min-width: 320px)"
+                  />
+                  <source
+                    srcset="
+                      ./imades.watch.jpg/image1tab@1x.jpg,
+                      ./imades.watch.jpg/image1tab@1x.jpg
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./imades.watch.jpg/image1lap@1x.jpg,
+                      ./imades.watch.jpg/image1lap@2x.jpg
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <img
+                    src="./imades.watch.jpg/image1mob@1x.jpg"
+                    alt="watch"
+                    width="279"
+                  />
+                </picture>
+                <span>
+                  <ul>
+                    <li>
+                      <p>Garmin Fenix 7X Pro Sapphire Solar</p>
+                    </li>
+                    <li>
+                      <p>€500</p>
+                    </li>
+                  </ul>
+                </span>
+              </div>
             </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <button type="button"></button>
+            <li>
+              <div class="catalog-imgns">
+                <img
+                  src="./imades.watch.jpg/image2mob@1x.jpg"
+                  alt="watch2"
+                  width="279"
+                />
+                <picture>
+                  <source
+                    srcset="
+                      ./imades.watch.jpg/image2mob@1x.jpg,
+                      ./imades.watch.jpg/image2mob@2x.jpg
+                    "
+                    media="(min-width: 320px)"
+                  />
+                  <source
+                    srcset="
+                      ./imades.watch.jpg/image2tab@1x.jpg,
+                      ./imades.watch.jpg/image2tab@2x.jpg
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./imades.watch.jpg/image2lap@1x.jpg,
+                      ./imades.watch.jpg/image2lap@1x.jpg
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                </picture>
+                <span>
+                  <ul>
+                    <li>
+                      <p>Garmin Marq Athlete</p>
+                    </li>
+                    <li>
+                      <p>€450</p>
+                    </li>
+                  </ul>
+                </span>
+              </div>
+            </li>
+            <li>
+              <div class="catalog-imgns">
+                <img
+                  src="./imades.watch.jpg/image3mob@1x.jpg"
+                  alt="watch3"
+                  width="279"
+                />
+                <picture>
+                  <source
+                    srcset="
+                      ./imades.watch.jpg/image3mob@1x.jpg,
+                      ./imades.watch.jpg/image3mob@2x.jpg
+                    "
+                    media="(min-width: 320px)"
+                  />
+                  <source
+                    srcset="
+                      ./imades.watch.jpg/image3tab@1x.jpg,
+                      ./imades.watch.jpg/image3tab@2x.jpg
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./imades.watch.jpg/image3lap@1x.jpg,
+                      ./imades.watch.jpg/image3lap@2x.jpg
+                    "
+                    media="(min-width:1158px)"
+                  />
+                </picture>
+                <span>
+                  <ul>
+                    <li>
+                      <p>Garmin Descent MK1</p>
+                    </li>
+                    <li>
+                      <p>€680</p>
+                    </li>
+                  </ul>
+                </span>
+              </div>
+            </li>
+            <li>
+              <div class="catalog-imgns">
+                <img
+                  src="./imades.watch.jpg/image4mob@1x.jpg"
+                  alt="watch4"
+                  width="279"
+                />
+                <picture>
+                  <source
+                    srcset="
+                      ./imades.watch.jpg/image4mob@1x.jpg,
+                      ./imades.watch.jpg/image4mob@2x.jpg
+                    "
+                    media="(min-width: 320px)"
+                  />
+                  <source
+                    srcset="
+                      ./imades.watch.jpg/image4tab@1x.jpg,
+                      ./imades.watch.jpg/image4tab@2x.jpg
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./imades.watch.jpg/image4lap@1x.jpg,
+                      ./imades.watch.jpg/image4lap@2x.jpg
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                </picture>
+                <span>
+                  <ul>
+                    <li>
+                      <p>Garmin D2 Delta PX</p>
+                    </li>
+                    <li>
+                      <p>€380</p>
+                    </li>
+                  </ul>
+                </span>
+              </div>
+            </li>
+            <li>
+              <div class="catalog-imgns">
+                <img
+                  src="./imades.watch.jpg/image5tab@1x.jpg"
+                  alt="watch5"
+                  width="279"
+                />
+                <picture>
+                  <source
+                    srcset="
+                      ./imades.watch.jpg/image5tab@1x.jpg,
+                      ./imades.watch.jpg/image5tab@2x.jpg
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./imades.watch.jpg/image5lap@1x.jpg,
+                      ./imades.watch.jpg/image5lap@2x.jpg
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                </picture>
+                <span>
+                  <ul>
+                    <li>
+                      <p>Garmin Fenix 6 Pro Solar</p>
+                    </li>
+                    <li><p>€400</p></li>
+                  </ul>
+                </span>
+              </div>
+            </li>
+            <li>
+              <div class="catalog-imgns">
+                <img
+                  src="./imades.watch.jpg/image6tab@1x.jpg"
+                  alt="watch6"
+                  width="279"
+                />
+                <picture>
+                  <source
+                    srcset="
+                      ./imades.watch.jpg/image6tab@1x.jpg,
+                      ./imades.watch.jpg/image6tab@2x.jpg
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./imades.watch.jpg/image6lap@1x.jpg,
+                      ./imades.watch.jpg/image6lap@2x.jpg
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                </picture>
+                <span>
+                  <ul>
+                    <li><p>Tube Watch S42 Date Steel With Black Case</p></li>
+                    <li><p>€395</p></li>
+                  </ul>
+                </span>
+              </div>
+            </li>
           </ul>
+          <button class="more" type="button"></button>
         </div>
       </section3>
       <section4></section4>
